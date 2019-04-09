@@ -1,7 +1,143 @@
+section .container {
+  max-width: 760px; }
+
+.tell_about_yourself {
+  margin-bottom: 20px; }
+
+.block_title {
+  font-family: 'Open_Sans_Semibold';
+  font-size: 44px;
+  font-weight: bold; }
+  .block_title:before {
+    content: "who we are";
+    display: block;
+    clear: both;
+    color: #d4af37;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 80px;
+    margin-bottom: 19px; }
+  .block_title:nth-of-type(2) {
+    margin-top: 160px; }
+
+.block_description {
+  font-family: 'OpenSansLight';
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 70px; }
+
+.block_button {
+  font-family: 'OpenSansLight';
+  text-decoration: none;
+  padding: 20px 45px;
+  font-size: 14px;
+  color: black;
+  border: solid 1px black; }
+
+.show_your_amazing_work {
+  padding-top: 80px; }
+  .show_your_amazing_work h2 {
+    margin-bottom: 90px; }
+
+.container_image {
+  padding-bottom: 300px;
+  background-image: url("../images/im_1.png");
+  background-position: center;
+  background-size: cover; }
+  .container_image:nth-of-type(2) {
+    background-image: url("../images/im_2.png"); }
+  .container_image:nth-of-type(3) {
+    background-image: url("../images/im_3.png"); }
+  .container_image:nth-of-type(4) {
+    background-image: url("../images/im_4.png"); }
+  .container_image:nth-of-type(5) {
+    background-image: url("../images/im_5.png"); }
+  .container_image:nth-of-type(6) {
+    background-image: url("../images/im_6.png"); }
+  .container_image:nth-of-type(7) {
+    background-image: url("../images/im_7.png"); }
+  .container_image:nth-of-type(8) {
+    background-image: url("../images/im_8.png"); }
+
+.the_amazing_people .man img {
+  width: 100%; }
+.the_amazing_people .man h4 {
+  font-family: 'Open_Sans_Semibold';
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #d4af37;
+  padding: 15px; }
+.the_amazing_people .man h3 {
+  font-family: 'openSans';
+  font-size: 21px;
+  color: #4c5a64;
+  padding: 5px 0 35px 15px; }
+.the_amazing_people .man p {
+  font-family: 'OpenSansLight';
+  font-size: 13px;
+  line-height: 25px;
+  padding: 0 20px 45px 15px;
+  margin-bottom: 0; }
+
+.we_like_to_write .block_title {
+  margin-bottom: 40px; }
+.we_like_to_write img {
+  width: 100%;
+  height: 100%; }
+.we_like_to_write .block_title:before {
+  content: "Last Post"; }
+.we_like_to_write .change_your_space {
+  font-family: 'openSans';
+  color: #505d68;
+  padding: 40px 35px 60px; }
+  .we_like_to_write .change_your_space h6 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #505d68; }
+  .we_like_to_write .change_your_space h4 {
+    margin-bottom: 35px;
+    font-size: 30px; }
+  .we_like_to_write .change_your_space p {
+    font-family: 'OpenSansLight';
+    font-size: 16px;
+    margin-bottom: 55px; }
+
+.more_from_our_blog {
+  padding-top: 70px;
+  padding-bottom: 100px; }
+
+.work_with_us .contact_info {
+  padding-top: 50px;
+  padding-bottom: 35px; }
+  .work_with_us .contact_info h5 {
+    font-size: 13px;
+    font-family: 'Open_Sans_Semibold';
+    margin-bottom: 45px;
+    text-transform: uppercase; }
+  .work_with_us .contact_info p {
+    font-family: 'OpenSansLight';
+    max-width: 250px;
+    margin: auto;
+    font-size: 19px; }
+
 @font-face {
   font-family: 'OpenSansLightItalic';
   src: url("../fonts/OpenSansLightItalic.eot");
   src: url("../fonts/OpenSansLightItalic.eot") format("embedded-opentype"), url("../fonts/OpenSansLightItalic.woff2") format("woff2"), url("../fonts/OpenSansLightItalic.woff") format("woff"), url("../fonts/OpenSansLightItalic.ttf") format("truetype"), url("../fonts/OpenSansLightItalic.svg#OpenSansLightItalic") format("svg"); }
+@font-face {
+  font-family: 'Open_Sans_Semibold';
+  src: url("../fonts/Open_Sans_Semibold.eot");
+  src: url("../fonts/Open_Sans_Semibold.eot") format("embedded-opentype"), url("../fonts/Open_Sans_Semibold.woff2") format("woff2"), url("../fonts/Open_Sans_Semibold.woff") format("woff"), url("../fonts/Open_Sans_Semibold.ttf") format("truetype"), url("../fonts/Open_Sans_Semibold.svg#Open_Sans_Semibold") format("svg"); }
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url("../fonts/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight.eot") format("embedded-opentype"), url("../fonts/OpenSansLight.woff2") format("woff2"), url("../fonts/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight.ttf") format("truetype"), url("../fonts/OpenSansLight.svg#OpenSansLight") format("svg"); }
+@font-face {
+  font-family: 'openSans';
+  src: url("../fonts/openSans.eot");
+  src: url("../fonts/openSans.eot") format("embedded-opentype"), url("../fonts/openSans.woff2") format("woff2"), url("../fonts/openSans.woff") format("woff"), url("../fonts/openSans.ttf") format("truetype"), url("../fonts/openSans.svg#openSans") format("svg"); }
 /* Icon 1 */
 * {
   outline: 0 !important; }
@@ -159,9 +295,20 @@
     font-size: 16px;
     text-transform: uppercase; }
 
-section .container {
-  max-width: 760px; }
+/***********COLORS*************/
+.text-secondary {
+  color: #a5a8ab; }
 
+.text_info {
+  color: #a1a4a7; }
+
+.text_body {
+  color: #021725; }
+
+.bg-light {
+  background-color: #f1f1f1; }
+
+/************************/
 header {
   position: relative; }
 
@@ -176,127 +323,14 @@ header {
   position: absolute;
   font-size: 80px; }
 
-.tell_about_yourself {
-  margin-bottom: 20px; }
-
-.block_title {
-  font-size: 44px;
-  color: #a5a8ab;
-  font-weight: bold; }
-  .block_title:before {
-    content: "who we are";
-    display: block;
-    clear: both;
-    color: #d4af37;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    margin-top: 80px;
-    margin-bottom: 19px; }
-  .block_title:nth-of-type(2) {
-    margin-top: 160px; }
-
-.block_description {
-  font-size: 18px;
-  line-height: 30px;
-  padding-bottom: 70px; }
-
-.block_button {
-  text-decoration: none;
-  padding: 20px 45px;
-  font-size: 14px;
-  color: black;
-  border: solid 1px black; }
-
-.show_your_amazing_work {
-  padding-top: 80px; }
-  .show_your_amazing_work h2 {
-    margin-bottom: 90px; }
-
-.container_image {
-  padding-bottom: 300px;
-  background-image: url("../images/im_1.png");
-  background-position: center;
-  background-size: cover; }
-  .container_image:nth-of-type(2) {
-    background-image: url("../images/im_2.png"); }
-  .container_image:nth-of-type(3) {
-    background-image: url("../images/im_3.png"); }
-  .container_image:nth-of-type(4) {
-    background-image: url("../images/im_4.png"); }
-  .container_image:nth-of-type(5) {
-    background-image: url("../images/im_5.png"); }
-  .container_image:nth-of-type(6) {
-    background-image: url("../images/im_6.png"); }
-  .container_image:nth-of-type(7) {
-    background-image: url("../images/im_7.png"); }
-  .container_image:nth-of-type(8) {
-    background-image: url("../images/im_8.png"); }
-
-.the_amazing_people .man {
-  background-color: #f1f1f1; }
-  .the_amazing_people .man img {
-    width: 100%; }
-  .the_amazing_people .man h4 {
-    text-transform: uppercase;
-    font-size: 13px;
-    color: #d4af37;
-    padding: 15px; }
-  .the_amazing_people .man h3 {
-    font-size: 21px;
-    color: #4c5a64;
-    padding: 5px 0 35px 15px; }
-  .the_amazing_people .man p {
-    font-size: 13px;
-    line-height: 25px;
-    padding: 0 20px 45px 15px;
-    margin-bottom: 0; }
-
-.we_like_to_write .block_title {
-  margin-bottom: 40px; }
-.we_like_to_write img {
-  width: 100%;
-  height: 100%; }
-.we_like_to_write .block_title:before {
-  content: "Last Post"; }
-.we_like_to_write .change_your_space {
-  color: #505d68;
-  padding: 40px 35px 60px;
-  background-color: #f1f1f1; }
-  .we_like_to_write .change_your_space h6 {
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 13px;
-    color: #505d68; }
-  .we_like_to_write .change_your_space h4 {
-    margin-bottom: 35px;
-    font-size: 30px; }
-  .we_like_to_write .change_your_space p {
-    font-size: 16px;
-    margin-bottom: 55px; }
-
-.more_from_our_blog {
-  padding-top: 70px;
-  padding-bottom: 100px; }
-
-.work_with_us .contact_info {
-  padding-top: 50px;
-  padding-bottom: 35px;
-  background-color: #f1f1f1; }
-  .work_with_us .contact_info h5 {
-    margin-bottom: 45px;
-    text-transform: uppercase; }
-  .work_with_us .contact_info p {
-    max-width: 250px;
-    margin: auto;
-    font-size: 19px; }
-
 footer {
   margin-top: 80px;
   background-color: #f1f1f1; }
   footer p {
+    font-family: 'OpenSansLight';
     font-size: 16px;
-    line-height: 93px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
