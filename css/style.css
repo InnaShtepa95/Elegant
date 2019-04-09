@@ -12,7 +12,6 @@ section .container {
     content: "who we are";
     display: block;
     clear: both;
-    color: #d4af37;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
@@ -32,7 +31,6 @@ section .container {
   text-decoration: none;
   padding: 20px 45px;
   font-size: 14px;
-  color: black;
   border: solid 1px black; }
 
 .show_your_amazing_work {
@@ -66,12 +64,10 @@ section .container {
   font-family: 'Open_Sans_Semibold';
   text-transform: uppercase;
   font-size: 13px;
-  color: #d4af37;
   padding: 15px; }
 .the_amazing_people .man h3 {
   font-family: 'openSans';
   font-size: 21px;
-  color: #4c5a64;
   padding: 5px 0 35px 15px; }
 .the_amazing_people .man p {
   font-family: 'OpenSansLight';
@@ -89,13 +85,11 @@ section .container {
   content: "Last Post"; }
 .we_like_to_write .change_your_space {
   font-family: 'openSans';
-  color: #505d68;
   padding: 40px 35px 60px; }
   .we_like_to_write .change_your_space h6 {
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-size: 13px;
-    color: #505d68; }
+    font-size: 13px; }
   .we_like_to_write .change_your_space h4 {
     margin-bottom: 35px;
     font-size: 30px; }
@@ -304,6 +298,9 @@ section .container {
 
 .text_body {
   color: #021725; }
+
+.text-warning {
+  color: #d4af37; }
 
 .bg-light {
   background-color: #f1f1f1; }
