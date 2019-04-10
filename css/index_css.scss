@@ -1,51 +1,12 @@
-section {
-  .container {
+.index_container {
+  color: var(--main-black-color);
     max-width: 760px;
   }
-}
 
 .tell_about_yourself {
   margin-bottom: 20px;
 }
 
-.block_title {
-  font-family: 'Open_Sans_Semibold';
-  font-size: 44px;
-
-
-  font-weight: bold;
-
-  &:before {
-    content: "who we are";
-    display: block;
-    clear: both;
-
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    margin-top: 80px;
-    margin-bottom: 19px;
-
-  }
-  &:nth-of-type(2) {
-    margin-top: 160px;
-  }
-}
-
-.block_description {
-  font-family: 'OpenSansLight';
-  font-size: 18px;
-  line-height: 30px;
-  padding-bottom: 70px;
-}
-
-.block_button {
-  font-family: 'OpenSansLight';
-  text-decoration: none;
-  padding: 20px 45px;
-  font-size: 14px;
-  border: solid 1px black;
-}
 
 .show_your_amazing_work {
   padding-top: 80px;
@@ -91,21 +52,23 @@ section {
       width: 100%;
     }
     h4 {
-      font-family: 'Open_Sans_Semibold';
+      color: var(--before-element-color);
+      font-family: var(--open-sans-semibold);
       text-transform: uppercase;
       font-size: 13px;
       padding: 15px;
 
     }
     h3 {
-      font-family: 'openSans';
+      color: var(--lighter-grey);
+      font-family: var(--open-sans);
       font-size: 21px;
 
       padding: 5px 0 35px 15px;
 
     }
     p {
-      font-family: 'OpenSansLight';
+      font-family: var(--open-sans-light);
       font-size: 13px;
       line-height: 25px;
       padding: 0 20px 45px 15px;
@@ -115,6 +78,8 @@ section {
 }
 
 .we_like_to_write {
+
+  color: var(--lighter-grey);
   .block_title{
     margin-bottom: 40px;
   }
@@ -128,7 +93,8 @@ section {
     }
   }
   .change_your_space {
-    font-family: 'openSans';
+    background-color: var(--background-grey);
+    font-family: var(--open-sans);
 
     padding: 40px 35px 60px;
 
@@ -145,7 +111,7 @@ section {
       font-size: 30px;
     }
     p {
-      font-family: 'OpenSansLight';
+      font-family: var(--open-sans-light);
       font-size: 16px;
       margin-bottom: 55px;
     }
@@ -161,18 +127,20 @@ section {
 .work_with_us
 {
   .contact_info{
+    color: var(--main-black-color);
+    background-color: var(--background-grey);
     padding-top: 50px;
     padding-bottom: 35px;
 
     h5{
       font-size: 13px;
-      font-family: 'Open_Sans_Semibold';
+      font-family: var(--open-sans-semibold);
       margin-bottom: 45px;
       text-transform: uppercase;
 
     }
     p{
-      font-family: 'OpenSansLight';
+      font-family: var(--open-sans-light);
       max-width: 250px;
       margin:auto;
       font-size: 19px;
