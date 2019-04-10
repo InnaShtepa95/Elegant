@@ -1,0 +1,42 @@
+.about_text_block p {
+  color: var(--main-block-title-color);
+  font-family: var(--open-sans-light);
+  max-width: 780px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 160px 0; }
+
+.container_image_about {
+  padding-bottom: 450px;
+  background-image: url("../images/company_about.png");
+  background-position: center;
+  background-size: cover; }
+
+.block_title_about {
+  color: var(--main-block-title-color);
+  font-family: var(--open-sans-semibold);
+  font-size: 44px;
+  font-weight: bold; }
+
+.services_desc {
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 50px; }
+
+.services_info {
+  max-width: 215px;
+  font-size: 18px;
+  font-family: var(--open-sans-light);
+  line-height: 28px; }
+
+.services_category {
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-family: var(--open-sans-light);
+  line-height: 28px; }
+  .services_category ul li {
+    list-style: none; }
+
+/*# sourceMappingURL=about.css.map */
