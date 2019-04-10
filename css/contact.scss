@@ -1,0 +1,51 @@
+.color_block {
+  padding-top: 33px;
+  padding-left: 30px;
+  padding-bottom: 90px;
+  background-color: var(--color-block-1);
+  font-family: var(--open-sans);
+  &:nth-of-type(2){
+    background-color: var(--color-block-2);
+  }
+
+}
+
+.color_block_text{
+  max-width: 250px;
+  font-size: 25px;
+  color: var(--white-color);
+
+ &:before{
+   margin-bottom: 47px;
+   content: "";
+   clear: both;
+   display: block;
+   width: 31px;
+   height: 2px;
+   background-color: var(--white-color);
+ }
+
+
+}
+
+.color_block_image{
+  padding-bottom: 300px;
+  background-image: url("../images/houses_contact.png");
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.color_block_content{
+font-family: var(--open-sans-light);
+  background-color: var(--background-grey);
+  font-size: 20px;
+  padding: 45px;
+
+}
+
+.contact_button{
+ margin-top: 100px;
+
+}

@@ -1,4 +1,5 @@
 @import url(index_css.css);
+@import url(contact.css);
 @import url(about.css);
 @font-face {
   font-family: 'OpenSansLightItalic';
@@ -38,6 +39,8 @@
   --main-black-color: #021725;
   --main-block-title-color: #a5a8ab;
   --lighter-grey: #a1a4a7;
+  --color-block-1:#d3b000;
+  --color-block-2:#212121;
   --before-element-color: #d4af37;
   --background-grey: #f1f1f1;
   --open-sans-semibold: 'Open_Sans_Semibold';
