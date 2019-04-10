@@ -69,6 +69,7 @@
 
 .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
   display: block;
+  z-index: 10;
   position: absolute;
   height: 3px;
   width: 100%;
@@ -215,6 +216,9 @@ header {
   animation-delay: 5s;
   animation-fill-mode: backwards;
   transition: 2s linear; }
+  .head_animation .banner-info {
+    position: absolute;
+    top: 400px; }
 
 @keyframes loading {
   0% {
@@ -229,9 +233,9 @@ header {
 .banner-info {
   color: var(--white-color);
   font-family: var(--open-sans-light-italic);
-  top: 40%;
+  top: 90%;
   left: 10%;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   font-size: 80px; }
 

@@ -1,9 +1,10 @@
 .animated_image {
-  width: 100%;
-  height: 768px;
-  background-color: #000;
+  background-color: white;
   margin: 0;
   overflow: hidden; }
+  .animated_image img {
+    position: relative;
+    cursor: pointer; }
 
 canvas {
   position: absolute;
@@ -12,14 +13,9 @@ canvas {
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden; }
 
-.animated_image img {
-  width: 100%;
-  cursor: pointer; }
-
 #container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 1200px;
+  height: 700px;
   left: 0;
   right: 0;
   top: 0;

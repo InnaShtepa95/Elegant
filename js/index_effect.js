@@ -1,12 +1,11 @@
-$(document).ready(function () {
 const TWO_PI = Math.PI * 2;
 
 var images = [],
     imageIndex = 0;
 
 var image,
-    imageWidth = 100,
-    imageHeight = 100;
+    imageWidth = 1200,
+    imageHeight = 700;
 
 var vertices = [],
     indices = [],
@@ -21,17 +20,18 @@ window.onload = function() {
 
     // images from reddit/r/wallpapers
     var urls = [
-            'images/banner_index.png'
+            'images/banner_index.png',
+
         ],
         image,
         loaded = 0;
     // very quick and dirty hack to load and display the first image asap
     images[0] = image = new Image();
     image.onload = function() {
-        if (++loaded === 1) {
+
             imagesLoaded();
 
-        }
+
     };
     image.src = urls[0];
 };
@@ -226,5 +226,3 @@ Fragment.prototype = {
         this.ctx.drawImage(image, 0, 0);
     }
 };
-
-});
